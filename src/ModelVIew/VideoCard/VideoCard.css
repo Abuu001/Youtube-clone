@@ -1,0 +1,32 @@
+.videoCard{
+    width: 270px;
+    margin-bottom: 40px;
+    margin-right: 29px;
+    cursor: pointer;
+}
+.videoCard__thumbnail{
+    height: 140px;
+    width: 269px;
+    /* object-fit: contain;  */
+}
+.videoCard__info{
+    display: flex;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+.videoCard__text{
+    margin-left: 15px;
+}
+.videoCard__text > h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.videoCard__text > p{
+    font-size: 14px;
+   color: gray;
+}
+@media (max-width : 452px){
+    .videoCard{
+        margin-right: 5px;
+    }
+}

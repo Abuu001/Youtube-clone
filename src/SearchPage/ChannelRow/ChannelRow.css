@@ -1,0 +1,36 @@
+.channelRow{
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+    width: 60%;
+}
+.channelRow__text{
+    display: flex;
+    flex-direction: column;
+}
+.channelRow__text >p{
+   color: #606060;
+   font-size: small !important;
+   padding-bottom: 5px; 
+   font-size: 14px !important;
+}
+.channelRow__text >h4{
+    display: flex;
+    padding-bottom: 10px; 
+    justify-content: space-between;
+ }
+.channelRow__logo{
+    object-fit: contain;
+    height:120px !important ;
+    width: 120px !important ;
+    margin: 10px 60px;
+}
+.channelRow__verifyIcon{
+    color: blue;
+}
+@media (max-width: 564px){
+    .channelRow{
+        flex-direction: column;
+        width: 100%;
+    }
+}

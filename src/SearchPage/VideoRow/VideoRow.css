@@ -1,0 +1,39 @@
+.videoRow{
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+    cursor: pointer;
+}
+.videoRow > img{
+    object-fit: contain;
+    width:246px ;
+    height: 138px;
+}
+.videoRow__text{
+    margin-left: 14px;
+}
+.videoRow__description{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #606060;
+}
+.videoRow__headline{
+    font-size: 15px;
+    color: #606060;
+}
+.videoRow__subsNo{
+    font-weight: bolder;
+    color: rgb(84, 157, 211);
+}
+.videoRow__subs{
+    background-color: lightgray;
+    padding: 2px;
+}
+@media (max-width: 564px){
+    .videoRow{
+        flex-direction: column;
+    }
+    .videoRow__text{
+        margin-left: 0;
+    }
+}
